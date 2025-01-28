@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+body.dark-theme {
+    background-color: #333;
+}
+
+body.dark-theme canvas {
+    border: 1px solid #fff;
+}
+
+body.dark-theme #theme-toggle {
+    background-color: #fff;
+    color: #000;
+}
